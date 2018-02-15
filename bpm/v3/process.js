@@ -24,7 +24,7 @@ function Engine() {
 	
 }
 
-exports.startProcess = function(key, parameters) {
+exports.start = function(key, parameters) {
 	var processInstanceId = java.call('org.eclipse.dirigible.api.v3.bpm.BpmFacade', 'startProcess', [key, JSON.stringify(parameters)]);
 	return processInstanceId;
 };
