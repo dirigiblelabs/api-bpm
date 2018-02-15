@@ -13,9 +13,9 @@ exports.getDeployer = function() {
 	return deployer;
 };
 
-exports.getEngine = function() {
-	var engine = require('bpm/v3/engine');
-	return engine;
+exports.getProcess = function() {
+	var process = require('bpm/v3/process');
+	return process;
 };
 
 exports.getTasks = function() {
