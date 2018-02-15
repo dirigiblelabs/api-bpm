@@ -8,7 +8,7 @@
  * SAP - initial API and implementation
  */
 
-var engine = require('bpm/v3/engine');
+var process = require('bpm/v3/process');
 for(var propertyName in ) {
-	exports[propertyName] = engine[propertyName];
+	exports[propertyName] = process[propertyName];
 }
