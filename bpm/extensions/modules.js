@@ -8,23 +8,5 @@ exports.getContent = function() {
 	}, {
 		name: "bpm/v4/tasks",
 		description: "BPM Tasks API"
-	}, {
-		name: "utils/v4/escape",
-		description: "Escape API"
-	}, {
-		name: "utils/v4/hex",
-		description: "Hex API"
-	}, {
-		name: "utils/v4/jsonpath",
-		description: "JsonPath API"
-	}, {
-		name: "utils/v4/url",
-		description: "URL API"
-	}, {
-		name: "utils/v4/uuid",
-		description: "UUID API"
-	}, {
-		name: "utils/v4/xml",
-		description: "XML API"
 	}];
 };
